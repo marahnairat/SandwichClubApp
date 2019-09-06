@@ -33,5 +33,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent= new Intent(this, ShowActivity.class);
         intent.putExtra(ShowActivity.ex_pos,position);
         startActivity(intent);
+
     }
 }
